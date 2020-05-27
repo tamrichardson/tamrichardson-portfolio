@@ -125,11 +125,14 @@ textarea {
     text-align: center;
     font-size: 5px;
   }
+  i {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+      position: relative;
+      left:40%;
 
-p {
-  font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-  color: white;
 }
 
 .card {
