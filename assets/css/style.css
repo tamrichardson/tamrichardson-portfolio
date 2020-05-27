@@ -125,7 +125,6 @@ textarea {
     margin-top: 15px;
       position: relative;
       left:40%;
-
 }
 
 .card {
@@ -135,17 +134,15 @@ textarea {
 
   .card-img-top {
   height:100px;
-
   }
-
 
 @media (max-width: 576px) {
   .no-btn{
     width: 65px;
     height: 65px;
     padding-top: 20px;
-    
     }
+
     .logo{
       width: 200px;
       height: 200px;
@@ -177,23 +174,11 @@ textarea {
       font-size: 10px;
       text-align: center;
     }
-
-    
-    #copyright2 {
-      font-size: 10px;
-      text-align: center;
-
-    }
     form {
       width: 350px;
       height: 350px;
     }
 
-    footer {
-      position: absolute;
-      bottom: 0;
-      margin-left: 23%;
-    }
   
    .card-deck {
      width: 100%;
