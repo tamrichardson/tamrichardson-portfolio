@@ -60,6 +60,13 @@ textarea {
   font-size: 13px;
   }
 
+  #icon {
+    color: black;
+    font-size: 50px;
+      position: relative;
+    
+  }
+
   h2{
       text-align: center;
       color: white;
@@ -192,9 +199,7 @@ flex-shrink: 0;
 justify-content: left;
 font-size: 8px;
   }
-
-  }
-
+}
 
 @media (min-width: 768px) { 
   .no-btn{
@@ -273,17 +278,11 @@ font-size: 8px;
       font-size: 50px;
     }
     .no-btn{
-      border-radius: 50%;
       width: 75px;
       height: 75px;
-      background-color: #ff3333;
-      font-family: 'Cinzel', serif;
-      vertical-align: middle;
       padding-top: 20px;
     }
   #link {
-    color:white;
-    font-family: 'Cinzel', serif;
   text-align: center;
   font-size: 10px;
   padding-bottom: 20px;
