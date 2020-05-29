@@ -14,11 +14,12 @@ body {
 .container-sm {
   background-color: rgba(255, 0, 0, 0.3);
   margin: auto;
-
 }
+
 input{
   opacity: 0.7 !important;
 }
+
 textarea {
   opacity: 0.7 !important;
 }
@@ -47,6 +48,18 @@ textarea {
     font-family: 'Cinzel', serif;
     vertical-align: middle;
     padding-top: 30px;
+    color: black;
+  }
+
+  .no-btns{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #ff3333;
+    font-family: 'Cinzel', serif;
+    vertical-align: middle;
+    padding-top: 30px;
+    color: black;
   }
 
   li {
@@ -60,11 +73,10 @@ textarea {
   font-size: 13px;
   }
 
-  #icon {
-    color: black;
+  #icons {
+    text-align: center;
     font-size: 50px;
-      position: relative;
-    
+  
   }
 
   h2{
@@ -80,10 +92,12 @@ textarea {
   }
 
   footer {
-flex-shrink: 0;
+    position: fixed;
+    left: 0;
     bottom: 0;
-
-  }
+    width: 100%;
+    text-align: center;
+ }
 
 /*****ABOUT*****/
 .bio {
@@ -207,6 +221,12 @@ font-size: 8px;
     height: 90px;
     }
 
+
+    .no-btns{
+      width: 90px;
+      height: 90px;
+      }
+
     #name {
       font-size: 65px;
     }
@@ -282,20 +302,33 @@ font-size: 8px;
       height: 75px;
       padding-top: 20px;
     }
+
+    .no-btns{
+      width: 75px;
+      height: 75px;
+      padding-top: 20px;
+    }
   #link {
   text-align: center;
   font-size: 10px;
   padding-bottom: 20px;
   }
+  #icons {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+  }
   
   h2{
     font-size: 30px;
   }
-     footer {
-        position: relative;
-        bottom: 0;
-        flex-shrink: 0;
-      }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
   
       .bioInfo {
         font-size: 25px;
