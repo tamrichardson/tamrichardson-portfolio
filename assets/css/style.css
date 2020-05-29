@@ -74,7 +74,7 @@ textarea {
   }
 
   #icons {
-    text-align: center;
+  margin: 0 auto;
     font-size: 50px;
   
   }
@@ -157,26 +157,37 @@ textarea {
   }
 
 @media (max-width: 576px) {
+
+  #name {
+    font-size: 35px;
+  }
+
+  .logo{
+    width: 200px;
+    height: 200px;
+  }
+
   .no-btn{
     width: 65px;
     height: 65px;
     padding-top: 20px;
     }
-
-    .logo{
-      width: 200px;
-      height: 200px;
-    }
-    #name {
-      font-size: 35px;
-    }
-    h2{
-      font-size: 20px;
-    }
-
     #link {
       font-size: 8px;
     }
+    .no-btns{
+      width: 65px;
+      height: 65px;
+      padding-top: 20px;
+    }
+
+    #icons {
+      position: relative;
+       color: black;
+       font-size: 40px;
+     }  
+
+   
 
     .bioInfo {
       font-size: 15px;
@@ -190,15 +201,13 @@ textarea {
       height: 375px;
     }
 
-    #copyright {
-      font-size: 10px;
-      text-align: center;
-    }
     form {
       width: 350px;
       height: 350px;
     }
-
+    h2{
+      font-size: 20px;
+    }
    .card-deck {
      width: 100%;
    }
@@ -213,6 +222,11 @@ textarea {
 justify-content: left;
 font-size: 8px;
   }
+
+  #copyright {
+    font-size: 10px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) { 
@@ -223,10 +237,9 @@ font-size: 8px;
 
 
     .no-btns{
-      width: 90px;
+      width: 50px;
       height: 90px;
       }
-
     #name {
       font-size: 65px;
     }
@@ -286,10 +299,7 @@ font-size: 8px;
 @media (min-width: 992px) { 
   body {background-size: 100%
     }
-    .bio {
-      width: 650px;
-      height: 450px;
-    }
+   
     .logo{
       width: 300px;
       height: 300px;
@@ -314,32 +324,30 @@ font-size: 8px;
   padding-bottom: 20px;
   }
   #icons {
-    text-align: center;
+   position: relative;
     color: black;
     font-size: 40px;
+ 
   }
   
   h2{
     font-size: 30px;
   }
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
- }
-  
+
       .bioInfo {
         font-size: 25px;
         display: block;
         text-align: wrap;
       line-height: 25px;
       }
+      .bio {
+        width: 650px;
+        height: 425px;
+      }
   
       form {
         width: 600px;
-        height: 450px;
+        height: 425px;
       }
   
       #titles{
@@ -358,6 +366,14 @@ font-size: 8px;
         justify-content: left;
         font-size: 18px;
           }
+
+          footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+         }
    }
 
 @media (min-width: 1200px) { 
