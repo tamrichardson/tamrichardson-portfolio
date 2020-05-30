@@ -40,7 +40,7 @@ textarea {
     color: white;
   }
 
-  .no-btn{
+  .top-btn{
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -51,14 +51,13 @@ textarea {
     color: black;
   }
 
-  .no-btns{
+  .bottom-btns{
     border-radius: 50%;
     width: 120px;
     height: 120px;
     background-color: #ff3333;
     font-family: 'Cinzel', serif;
     vertical-align: middle;
-    padding-top: 30px;
     color: black;
   }
 
@@ -76,7 +75,6 @@ textarea {
   #icons {
   margin: 0 auto;
     font-size: 50px;
-  
   }
 
   h2{
@@ -139,14 +137,14 @@ textarea {
     color: white;
   }
 
-  i {
+ #ghlink {
     color: black;
     text-align: center;
     font-size: 50px;
       position: relative;
-      left:40%;
-}
-
+      padding-left: 40%;
+  }
+  
 .card {
   background-color: rgba(255, 0, 0, 0.3); 
  height: 225px;
@@ -167,15 +165,17 @@ textarea {
     height: 200px;
   }
 
-  .no-btn{
+  .top-btn{
     width: 65px;
     height: 65px;
     padding-top: 20px;
     }
+
     #link {
       font-size: 8px;
     }
-    .no-btns{
+
+    .bottom-btns{
       width: 65px;
       height: 65px;
       padding-top: 20px;
@@ -184,10 +184,9 @@ textarea {
     #icons {
       position: relative;
        color: black;
-       font-size: 40px;
-     }  
+       font-size: 25px;
 
-   
+     }  
 
     .bioInfo {
       font-size: 15px;
@@ -230,13 +229,12 @@ font-size: 8px;
 }
 
 @media (min-width: 768px) { 
-  .no-btn{
+  .top-btn{
     width: 90px;
     height: 90px;
     }
 
-
-    .no-btns{
+    .bottom-btns{
       width: 50px;
       height: 90px;
       }
@@ -246,14 +244,12 @@ font-size: 8px;
 
     #link {
       font-size: 8px;
-
     }
 
     footer {
       position: relative;
       bottom: 0;
       flex-shrink: 0;
-     
     }
 
     .bioInfo {
@@ -293,6 +289,12 @@ font-size: 8px;
       justify-content: left;
       font-size: 18px;
         }
+
+        #icons {
+          position: relative;
+           color: black;
+           font-size: 20px;
+         }  
  }
 
 
@@ -307,27 +309,28 @@ font-size: 8px;
     #name {
       font-size: 50px;
     }
-    .no-btn{
+    .top-btn{
       width: 75px;
       height: 75px;
       padding-top: 20px;
     }
 
-    .no-btns{
+    .bottom-btns{
       width: 75px;
       height: 75px;
       padding-top: 20px;
     }
+
   #link {
   text-align: center;
   font-size: 10px;
   padding-bottom: 20px;
   }
+
   #icons {
    position: relative;
     color: black;
     font-size: 40px;
- 
   }
   
   h2{
