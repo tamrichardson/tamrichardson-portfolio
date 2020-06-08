@@ -1,14 +1,14 @@
 body {
-  background: url(https://i.pinimg.com/originals/72/77/a9/7277a97980f189d2e8f145d2edfd472a.jpg)no-repeat center center fixed;
-  object-fit: cover;
-  display: flex;
-  flex-direction: column;
+    background: url(https://i.pinimg.com/originals/72/77/a9/7277a97980f189d2e8f145d2edfd472a.jpg)no-repeat center center fixed;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 #name {
-  font-size: 75px;
-  color: black;
-  font-family: 'Cinzel', serif;
+    font-size: 75px;
+    color: black;
+    font-family: 'Cinzel', serif;
 }
 
 .container-sm {
@@ -16,7 +16,7 @@ body {
   margin: auto;
 }
 
-input {
+input{
   opacity: 0.7 !important;
 }
 
@@ -25,135 +25,140 @@ textarea {
 }
 
 .logo {
-  display: block;
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  margin-right: auto;
-  margin-left: auto;
-}
+    display: block;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    }
 
-button {
-  border-radius: 50%;
-  background-color: #ff3333;
-  font-family: 'Cinzel', serif;
-  color: white;
-}
+ button {
+    border-radius: 50%;
+    background-color: #ff3333;
+    font-family: 'Cinzel', serif;
+    color: white;
+  }
 
-.top-btn {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  background-color: #ff3333;
-  font-family: 'Cinzel', serif;
-  vertical-align: middle;
-  padding-top: 30px;
-  color: black;
-}
+  .top-btn{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #ff3333;
+    font-family: 'Cinzel', serif;
+    vertical-align: middle;
+    padding-top: 30px;
+    color: black;
+  }
 
-.bottom-btns {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  background-color: #ff3333;
-  font-family: 'Cinzel', serif;
-  vertical-align: middle;
-  color: black;
-}
+  .bottom-btns{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #ff3333;
+    font-family: 'Cinzel', serif;
+    vertical-align: middle;
+    color: black;
+  }
 
-li {
-  float: right;
-}
+  li {
+      float: right;
+  }
 
-#link {
-  color: white;
-  font-family: 'Cinzel', serif;
+  #link {
+    color:white;
+    font-family: 'Cinzel', serif;
   text-align: center;
   font-size: 13px;
-}
+  }
 
-#icons {
+  #icons {
   margin: 0 auto;
-  font-size: 50px;
-}
+    font-size: 50px;
+  }
 
-h2 {
-  text-align: center;
-  color: white;
-  font-size: 50px
-}
+  h2{
+      text-align: center;
+      color: white;
+      font-size: 50px
+  }
 
-#copyright {
-  font-size: 15px;
-  color: black;
-  font-family: 'Cinzel', serif;
-}
+  #copyright {
+    font-size: 15px;
+    color:black;
+    font-family: 'Cinzel', serif;
+  }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
 
 /*****ABOUT*****/
 .bio {
   width: 800px;
   margin: auto;
-}
+  }
 
-.bioInfo {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
-  display: block;
-  text-align: center;
-  color: white;
-}
+  .bioInfo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    color: white;
+  }
+  
 
+  /*****CONTACT*****/
+  form {
+    width: 800px;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+    }
 
-/*****CONTACT*****/
-form {
-  width: 800px;
-  margin: auto;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
-  display: block;
-  line-height: 25px;
-  text-align: center;
-  color: white;
-}
+     /*****PORTFOLIO*****/
+  #titles{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: white;
+  }
 
-/*****PORTFOLIO*****/
-#titles {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
-  color: white;
-}
+  #tbyd {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  
+  #mongo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: white;
+  }
 
-#tbyd {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-  color: white;
-}
-
-#ghlink {
-  color: black;
-  text-align: center;
-  font-size: 50px;
-  position: relative;
-  padding-left: 40%;
-}
-
+ #ghlink {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+      position: relative;
+      padding-left: 40%;
+  }
+  
 .card {
-  background-color: rgba(255, 0, 0, 0.3);
-  height: 225px;
-  width: 200px;
-}
+  background-color: rgba(255, 0, 0, 0.3); 
+ height: 225px;
+  }
 
-.card-img-top {
-  height: 100px;
-}
+  .card-img-top {
+  height:100px;
+  }
 
 @media (max-width: 576px) {
 
@@ -161,68 +166,66 @@ form {
     font-size: 35px;
   }
 
-  .logo {
+  .logo{
     width: 200px;
     height: 200px;
   }
 
-  .top-btn {
+  .top-btn{
     width: 65px;
     height: 65px;
     padding-top: 20px;
-  }
+    }
 
-  #link {
-    font-size: 8px;
-  }
+    #link {
+      font-size: 8px;
+    }
 
-  .bottom-btns {
-    width: 65px;
-    height: 65px;
-    padding-top: 20px;
-  }
+    .bottom-btns{
+      width: 65px;
+      height: 65px;
+      padding-top: 20px;
+    }
 
-  #icons {
-    position: relative;
-    color: black;
-    font-size: 25px;
+    #icons {
+      position: relative;
+       color: black;
+       font-size: 25px;
 
-  }
+     }  
 
-  .bioInfo {
-    font-size: 15px;
-    display: block;
-    text-align: wrap;
+    .bioInfo {
+      font-size: 15px;
+      display: block;
+      text-align: wrap;
     line-height: 15px;
-  }
+    }
 
-  .bio {
-    width: 375px;
-    height: 375px;
-  }
+    .bio {
+      width: 375px;
+      height: 375px;
+    }
 
-  form {
-    width: 350px;
-    height: 350px;
-  }
+    form {
+      width: 350px;
+      height: 350px;
+    }
+    h2{
+      font-size: 20px;
+    }
+   .card-deck {
+     width: 100%;
+   }
 
-  h2 {
-    font-size: 20px;
-  }
-
-  .card-deck {
-    width: 100%;
-  }
-
-  #titles {
+   #titles{
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     color: white;
   }
-
-  .container2 {
-    justify-content: left;
-    font-size: 8px;
+ 
+  .container2{
+justify-content: left;
+font-size: 8px;
   }
 
   #copyright {
@@ -231,190 +234,160 @@ form {
   }
 }
 
-@media (min-width: 768px) {
-  .top-btn {
+@media (min-width: 768px) { 
+  .top-btn{
     width: 90px;
     height: 90px;
-  }
+    }
 
-  .bottom-btns {
-    width: 90px;
-    height: 90px;
-  }
+    .bottom-btns{
+      width: 50px;
+      height: 90px;
+      }
+    #name {
+      font-size: 65px;
+    }
 
-  #name {
-    font-size: 65px;
-  }
+    #link {
+      font-size: 8px;
+    }
 
-  .logo {
-    width: 300px;
-    height: 300px;
-  }
+    footer {
+      position: relative;
+      bottom: 0;
+      flex-shrink: 0;
+    }
 
-
-  #link {
-    text-align: center;
-    font-size: 10px;
-    padding-bottom: 20px;
-  }
-
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .bioInfo {
-    font-size: 25px;
-    display: block;
-    text-align: wrap;
+    .bioInfo {
+      font-size: 25px;
+      display: block;
+      text-align: wrap;
     line-height: 25px;
-  }
+    }
 
-  .bio {
-    width: 650px;
-    height: 650px;
-  }
+    .bio {
+      width: 650px;
+      height: 650px;
+    }
 
-  form {
-    width: 600px;
-    height: 600px;
-  }
+    form {
+      width: 600px;
+      height: 600px;
+    }
 
-  h2 {
-    font-size: 40px;
-  }
+    h2{
+      font-size: 40px;
+    }
 
-  .card-deck {
-    margin-left: 200px;
-    margin-top: 100px;
-    width: 75%;
-  }
+    #titles{
+      font-family: 'Quicksand', sans-serif;
+      font-size: 25px;
+      color: white;
+    }
 
-  #titles {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
-    color: white;
-  }
+    p {
+      font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+      color: white;
+    }
 
-  p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    color: white;
-  }
+    .container2{
+      justify-content: left;
+      font-size: 18px;
+        }
 
-  .container2 {
-    justify-content: left;
-    font-size: 18px;
-  }
-
-  #icons {
-    position: relative;
-    color: black;
-    font-size: 40px;
-  }
-}
+        #icons {
+          position: relative;
+           color: black;
+           font-size: 20px;
+           
+         }  
+ }
 
 
-@media (min-width: 992px) {
-  .top-btn {
-    width: 100px;
-    height: 100px;
-  }
+@media (min-width: 992px) { 
+  body {background-size: 100%
+    }
+   
+    .logo{
+      width: 300px;
+      height: 300px;
+    }
+    #name {
+      font-size: 50px;
+    }
+    .top-btn{
+      width: 75px;
+      height: 75px;
+      padding-top: 20px;
+    }
 
-  .bottom-btns {
-    width: 100px;
-    height: 100px;
-  }
-
-  #name {
-    font-size: 75px;
-  }
-
-  .logo {
-    width: 400px;
-    height: 400px;
-  }
-
+    .bottom-btns{
+      width: 75px;
+      height: 75px;
+      padding-top: 20px;
+    }
 
   #link {
-    text-align: center;
-    font-size: 15px;
-    padding-bottom: 20px;
-  }
-
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .bioInfo {
-    font-size: 30px;
-    display: block;
-    text-align: wrap;
-    line-height: 30px;
-  }
-
-  .bio {
-    width: 750px;
-    height: 650px;
-  }
-
-  form {
-    width: 700px;
-    height: 700px;
-  }
-
-  h2 {
-    font-size: 50px;
-  }
-
-  .card-deck {
-    margin-left: 200px;
-    margin-top: 100px;
-    width: 75%;
-  }
-
-  #titles {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
-    color: white;
-  }
-
-  #tbyd {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
-    color: white;
-  }
-
-  p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
-    color: white;
-  }
-
-  .container2 {
-    justify-content: left;
-    font-size: 28px;
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 20px;
   }
 
   #icons {
-    position: relative;
+   position: relative;
     color: black;
-    font-size: 50px;
-    padding-top: 15px;
+    font-size: 40px;
   }
-}
-
-
-@media (min-width: 1200px) {
-
-  body {
-    background-size: 100%
+  
+  h2{
+    font-size: 30px;
   }
-}
+
+      .bioInfo {
+        font-size: 25px;
+        display: block;
+        text-align: wrap;
+      line-height: 25px;
+      }
+      .bio {
+        width: 650px;
+        height: 425px;
+      }
+  
+      form {
+        width: 600px;
+        height: 425px;
+      }
+  
+      #titles{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        color: white;
+      }
+  
+      p {
+        font-family: 'Quicksand', sans-serif;
+          font-size: 16px;
+        color: white;
+      }
+  
+      .container2{
+        justify-content: left;
+        font-size: 18px;
+          }
+
+          footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+         }
+   }
+
+@media (min-width: 1200px) { 
+
+    body {background-size: 100%
+    }
+  }
